@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseLogin</string>
+    <string name="sun">Sun</string>
+    <string name="day_landscape">Day Landscape</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>
