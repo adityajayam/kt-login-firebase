@@ -118,5 +118,16 @@
         app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
         app:layout_constraintStart_toStartOf="@+id/passwordEditText" />
 
-
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:text="@string/login"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
